@@ -1,0 +1,9 @@
+
+特征
+
+1. total,  history 交易的笔数
+2. ratio,  精品购买率
+3. locFeature， 购买精品的出发地 / 总人数的出发地 （62%）
+4. action, 每个action的游览比例  （65%）
+5. actionTrans， 当前动作与前一个动作的次数 （77%）
+5. timeTrans, 当前动作与前一个动作的平均间隔 （84%）
