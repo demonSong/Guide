@@ -7,3 +7,14 @@
 4. action, 每个action的游览比例  （65%）
 5. actionTrans， 当前动作与前一个动作的次数 （77%）
 5. timeTrans, 当前动作与前一个动作的平均间隔 （84%）
+
+timeTrans特征对应的action转换公式如下：
+timeTransK
+K = K - 1
+cur = K / 9 + 1
+prv = K % 9 + 1
+
+timeTrans42
+
+cur = 41 / 9 + 1 = 5
+prv = 41 % 9 + 1 = 6
